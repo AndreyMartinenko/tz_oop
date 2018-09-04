@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div.container{
+    width: 1000px;
+
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: auto 6px;
+}
+
+.col1, .col3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 14%;
+    float: left;
+    min-height: 100%;
+}
+.col1, .col3{
+    margin: auto 0px;
+}
+.col3 {
+    margin: auto 0px;
+}
+
+
+.col2 {
+    width: 70%;
+    min-height: 100%;
+    float: left;
+}
+
+.adw>img{
+    position: absolute;
+    max-width: border-box;
+}
+.adw>p{
+    position: relative;
+    color: ghostwhite
+}
+
+p {
+    text-align: center;
+}
+
+.adw:hover{
+    transition: all;
+    transform: scale(1.1);
+}
